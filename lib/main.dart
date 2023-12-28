@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animations/swiper.dart';
 
 import 'animated_confetti.dart';
 import 'animated_container.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const  AnimatedconfettiScreen ( ),
+      home: const  SwiperScreen ( ),
     );
   }
 }

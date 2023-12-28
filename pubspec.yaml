@@ -38,6 +38,8 @@ dependencies:
   animated_text_kit: ^4.2.2
   rive: ^0.12.4
   confetti: ^0.7.0
+  page_transition: ^2.1.0
+  appinio_swiper: ^2.1.0
 
 dev_dependencies:
   flutter_test:
