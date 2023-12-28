@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'animated_container.dart';
+import 'animated_rive.dart';
 import 'animated_text_kit.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const  AnimatedTextKitWidget ( ),
+      home: const  AnimatedRiveWidget ( ),
     );
   }
 }
